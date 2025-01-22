@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2025-01-21 22:52:18.759825",
+ "doctype": "DocType",
+ "document_type": "System",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "enabled",
+  "send_notifications_to",
+  "send_email_for_successful_backup",
+  "app_access_key",
+  "app_secret_key",
+  "allow_dropbox_access",
+  "dropbox_refresh_token",
+  "dropbox_access_token",
+  "dropbox_path"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "send_notifications_to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Send Notifications To",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "description": "Note: By default emails for failed upload are sent.",
+   "fieldname": "send_email_for_successful_backup",
+   "fieldtype": "Check",
+   "label": "Send Email for Successful Upload"
+  },
+  {
+   "fieldname": "app_access_key",
+   "fieldtype": "Data",
+   "label": "App Access Key"
+  },
+  {
+   "fieldname": "app_secret_key",
+   "fieldtype": "Password",
+   "label": "App Secret Key"
+  },
+  {
+   "fieldname": "allow_dropbox_access",
+   "fieldtype": "Button",
+   "label": "Allow Dropbox Access"
+  },
+  {
+   "fieldname": "dropbox_refresh_token",
+   "fieldtype": "Password",
+   "hidden": 1,
+   "label": "Dropbox Refresh Token",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "dropbox_access_token",
+   "fieldtype": "Password",
+   "hidden": 1,
+   "label": "Dropbox Access Token"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "DBOX.-.####"
+  },
+  {
+   "fieldname": "dropbox_path",
+   "fieldtype": "Data",
+   "label": "Dropbox Path"
+  }
+ ],
+ "links": [],
+ "modified": "2025-01-22 19:51:27.892469",
+ "modified_by": "Administrator",
+ "module": "Mywhy Robot Pilot",
+ "name": "Dropbox",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
