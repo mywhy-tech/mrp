@@ -1,8 +1,8 @@
 app_name = "mrp"
-app_title = "Mrp"
-app_publisher = "myWhy-Regi"
-app_description = "myWhy Robot Pilot"
-app_email = "reggy.hingano@gmail.com"
+app_title = "Mywhy Robot Pilot"
+app_publisher = "Sione Taumoepeau and Olioni Taumoepeau"
+app_description = "Mywhy App for Robot Pilot"
+app_email = "sione@mywhy.to"
 app_license = "mit"
 
 # Apps
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "mrp",
 # 		"logo": "/assets/mrp/logo.png",
-# 		"title": "Mrp",
+# 		"title": "Mywhy Robot Pilot",
 # 		"route": "/mrp",
 # 		"has_permission": "mrp.api.permission.has_app_permission"
 # 	}
@@ -27,6 +27,9 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/mrp/css/mrp.css"
 # app_include_js = "/assets/mrp/js/mrp.js"
+
+#app_include_css = "mrp.bundle.css"
+#web_include_css = "mrp.bundle.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/mrp/css/mrp.css"

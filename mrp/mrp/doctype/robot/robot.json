@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-01-13 01:56:03.951573",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "robot_name",
+  "username",
+  "status",
+  "dropbox_settings",
+  "naming_series",
+  "column_break_nbde",
+  "host",
+  "password",
+  "robot_serial_no",
+  "frame"
+ ],
+ "fields": [
+  {
+   "fieldname": "robot_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Robot Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "\nActive\nCancel\nRemove"
+  },
+  {
+   "fieldname": "column_break_nbde",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "host",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Host",
+   "reqd": 1
+  },
+  {
+   "fieldname": "robot_serial_no",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Robot Serial No"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "R.#####"
+  },
+  {
+   "fieldname": "frame",
+   "fieldtype": "Select",
+   "label": "Frame",
+   "options": "\nFrame A\nFrame B"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "dropbox_settings",
+   "fieldtype": "Link",
+   "label": "Dropbox Settings",
+   "options": "Dropbox"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-21 22:57:22.074547",
+ "modified_by": "Administrator",
+ "module": "Mywhy Robot Pilot",
+ "name": "Robot",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

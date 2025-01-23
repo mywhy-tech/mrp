@@ -1,0 +1,53 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"SxN_wqyo_Z\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>mywhy Robot Pilot</b></span>\",\"col\":12}},{\"id\":\"loF5k9ovla\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Robot\",\"col\":4}},{\"id\":\"mDgfb1UJI1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schedule\",\"col\":4}},{\"id\":\"XFHpXJJMLl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dropbox\",\"col\":4}}]",
+ "creation": "2025-01-21 22:23:39.231767",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "quantity-1",
+ "idx": 0,
+ "indicator_color": "red",
+ "is_hidden": 0,
+ "label": "MRP",
+ "links": [],
+ "modified": "2025-01-22 21:27:31.838814",
+ "modified_by": "Administrator",
+ "module": "Mywhy Robot Pilot",
+ "name": "MRP",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Schedule",
+   "link_to": "Schedule",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Robot",
+   "link_to": "Robot",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Dropbox",
+   "link_to": "Dropbox",
+   "type": "DocType"
+  }
+ ],
+ "title": "MRP"
+}
