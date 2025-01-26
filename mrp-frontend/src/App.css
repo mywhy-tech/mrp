@@ -1,0 +1,15 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+#innerApp {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: red;
+}
