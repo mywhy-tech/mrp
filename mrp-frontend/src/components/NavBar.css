@@ -1,0 +1,6 @@
+.navBar {
+    width: inherit;
+    height: 10vh;
+    background-color: green;
+    position: absolute;
+}
