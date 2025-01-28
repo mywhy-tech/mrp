@@ -13,7 +13,8 @@
   "schedule_start",
   "column_break_uyxl",
   "status",
-  "robot_name"
+  "robot_name",
+  "repeat"
  ],
  "fields": [
   {
@@ -61,6 +62,10 @@
   {
    "fieldname": "schedule_start",
    "fieldtype": "Datetime",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Schedule Start Time"
   },
   {
@@ -73,12 +78,17 @@
   {
    "fieldname": "section_break_gdki",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "repeat",
+   "fieldtype": "Data",
+   "label": "Repeat"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-23 07:04:14.062013",
+ "modified": "2025-01-27 13:42:59.111107",
  "modified_by": "Administrator",
  "module": "Mywhy Robot Pilot",
  "name": "Schedule",

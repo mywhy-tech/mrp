@@ -1,5 +1,5 @@
 app_name = "mrp"
-app_title = "Mywhy Robot Pilot"
+app_title = "mywhy Robot Pilot"
 app_publisher = "Sione Taumoepeau and Olioni Taumoepeau"
 app_description = "Mywhy App for Robot Pilot"
 app_email = "sione@mywhy.to"
