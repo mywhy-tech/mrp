@@ -1,0 +1,15 @@
+.sideMenuItem {
+    height: 3vh;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sideMenuItem:hover {
+    background-color: rgb(255, 255, 255);
+}
