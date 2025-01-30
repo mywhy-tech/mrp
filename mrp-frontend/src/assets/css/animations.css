@@ -1,0 +1,35 @@
+@keyframes collapsingAnimation {
+    0% {
+        width: calc(17.5vw - 20px);
+    }
+    100% {
+        width: calc(5vw - 20px);
+    }
+}
+
+@keyframes expandingAnimation {
+    0% {
+        width: calc(5vw - 20px);
+    }
+    100% {
+        width: calc(17.5vw - 20px);
+    }
+}
+
+@keyframes bottomSideMenuCollapseAnimation {
+    0% {
+        justify-content: flex-end;
+    }
+    5% {
+        justify-content: center;
+    }
+}
+
+@keyframes bottomSideMenuExpandAnimation {
+    0% {
+        justify-content: center;
+    }
+    50% {
+        justify-content: flex-end;
+    }
+}
