@@ -1,6 +1,6 @@
 import "./SideMenuItem.css"
 
-import Icon from "./Icon.jsx"
+import Icon from "../Icon.jsx"
 
 export default function SideMenuItem({ text, icon, menuState }) {
     var additionalStyling = {}
@@ -26,7 +26,7 @@ export default function SideMenuItem({ text, icon, menuState }) {
     
     return (
         <div className="sideMenuItem" style={additionalStyling}>
-            {icon && <Icon iconName={icon} size="4vh"/> }
+            {icon && <Icon iconName={icon.name} size={icon.size}/> }
             {menuState === "expanded" && <p>{text}</p>}
         </div>
     )

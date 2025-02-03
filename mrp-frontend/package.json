@@ -11,6 +11,8 @@
     "copy-html-entry": "cp ../mrp/public/mrp-frontend/index.html ../mrp/www/mrp-frontend.html"
   },
   "dependencies": {
+    "@blueprintjs/core": "^5.16.4",
+    "@blueprintjs/icons": "^5.17.1",
     "frappe-react-sdk": "^1.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
