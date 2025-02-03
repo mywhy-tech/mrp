@@ -151,7 +151,12 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
+    "cron": {
+        "*/5 * * * *": [
+            "mrp.mywhy_robot_pilot.doctype.schedule.schedule.update_schedule_status"
+        ]
+    },
 # 	"all": [
 # 		"mrp.tasks.all"
 # 	],
@@ -167,7 +172,7 @@ app_license = "mit"
 # 	"monthly": [
 # 		"mrp.tasks.monthly"
 # 	],
-# }
+}
 
 # Testing
 # -------
@@ -245,3 +250,7 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+website_route_rules = [
+    {'from_route': '/mrp-frontend', 'to_route': 'mrp-frontend'},
+]
