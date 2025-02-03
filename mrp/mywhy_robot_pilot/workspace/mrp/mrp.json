@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"SxN_wqyo_Z\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>mywhy Robot Pilot</b></span>\",\"col\":12}},{\"id\":\"loF5k9ovla\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Robot\",\"col\":4}},{\"id\":\"mDgfb1UJI1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schedule\",\"col\":4}},{\"id\":\"XFHpXJJMLl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dropbox\",\"col\":4}}]",
+ "content": "[{\"id\":\"SxN_wqyo_Z\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>mywhy Robot Pilot</b></span>\",\"col\":12}},{\"id\":\"loF5k9ovla\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Robot\",\"col\":3}},{\"id\":\"mDgfb1UJI1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schedule\",\"col\":3}},{\"id\":\"XFHpXJJMLl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dropbox\",\"col\":3}},{\"id\":\"3GVcVSFCX-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Missions\",\"col\":3}}]",
  "creation": "2025-01-21 22:23:39.231767",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "MRP",
  "links": [],
- "modified": "2025-01-22 21:27:31.838814",
+ "modified": "2025-01-27 23:19:57.771340",
  "modified_by": "Administrator",
  "module": "Mywhy Robot Pilot",
  "name": "MRP",
@@ -30,6 +30,14 @@
    "doc_view": "List",
    "label": "Schedule",
    "link_to": "Schedule",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Missions",
+   "link_to": "Missions",
    "stats_filter": "[]",
    "type": "DocType"
   },

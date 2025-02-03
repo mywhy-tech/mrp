@@ -2,6 +2,7 @@
  "actions": [],
  "autoname": "naming_series:",
  "creation": "2025-01-21 22:52:18.759825",
+ "default_view": "List",
  "doctype": "DocType",
  "document_type": "System",
  "editable_grid": 1,
@@ -81,8 +82,9 @@
    "label": "Dropbox Path"
   }
  ],
+ "hide_toolbar": 1,
  "links": [],
- "modified": "2025-01-22 19:51:27.892469",
+ "modified": "2025-01-30 18:14:28.057266",
  "modified_by": "Administrator",
  "module": "Mywhy Robot Pilot",
  "name": "Dropbox",

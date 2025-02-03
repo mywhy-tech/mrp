@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Schedule(Document):
+class Missions(Document):
 	pass
