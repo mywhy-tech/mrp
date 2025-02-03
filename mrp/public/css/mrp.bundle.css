@@ -321,6 +321,19 @@ header .form-control:focus {
     border-radius: 0 !important;
 }
 
+/* Hide sidebar and icons*/
+
+span.sidebar-toggle-icon,
+span.list-liked-by-me,
+.sidebar-toggle-btn,
+span.like-action,
+.menu-btn-group,
+.custom-btn-group,
+.col-lg-2.layout-side-section,
+span.comment-count.d-flex.align-items-center {
+  display: none !important;
+}
+
 
 /* Input Fields */
 input {

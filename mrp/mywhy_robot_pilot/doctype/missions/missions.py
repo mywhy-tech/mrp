@@ -1,4 +1,4 @@
-# Copyright (c) 2025, Sione Taumoepeau and Olioni Taumoepeau and contributors
+# Copyright (c) 2025, mywhy and Sione and Olioni Taumoepeauand and contributors
 # For license information, please see license.txt
 
 # import frappe

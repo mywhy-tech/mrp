@@ -1,7 +1,7 @@
 [project]
 name = "mrp"
 authors = [
-    { name = "mywhy", email = "sione@mywhy.to"}
+    { name = "mywhy and Sione and Olioni Taumoepeau", email = "sione@mywhy.to"}
 ]
 description = "mywhy App for Robot Pilot"
 requires-python = ">=3.10"

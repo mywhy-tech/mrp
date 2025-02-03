@@ -1,7 +1,7 @@
 app_name = "mrp"
 app_title = "mywhy Robot Pilot"
-app_publisher = "Sione Taumoepeau and Olioni Taumoepeau"
-app_description = "Mywhy App for Robot Pilot"
+app_publisher = "mywhy and Sione and Olioni Taumoepeau"
+app_description = "mywhy App for Robot Pilot"
 app_email = "sione@mywhy.to"
 app_license = "mit"
 
@@ -28,8 +28,8 @@ app_license = "mit"
 # app_include_css = "/assets/mrp/css/mrp.css"
 # app_include_js = "/assets/mrp/js/mrp.js"
 
-#app_include_css = "mrp.bundle.css"
-#web_include_css = "mrp.bundle.css"
+app_include_css = "mrp.bundle.css"
+web_include_css = "mrp.bundle.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/mrp/css/mrp.css"
