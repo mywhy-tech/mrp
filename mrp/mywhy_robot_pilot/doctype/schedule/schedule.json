@@ -1,0 +1,124 @@
+{
+    "actions": [],
+    "allow_copy": 1,
+    "autoname": "naming_series:",
+    "creation": "2025-01-13 02:33:22.470186",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "naming_series",
+        "section_break_gdki",
+        "schedule_name",
+        "robot",
+        "schedule_start",
+        "column_break_uyxl",
+        "status",
+        "progress",
+        "robot_name",
+        "repeat"
+    ],
+    "fields": [
+        {
+            "fieldname": "schedule_name",
+            "fieldtype": "Data",
+            "label": "Schedule Name"
+        },
+        {
+            "fieldname": "column_break_uyxl",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fetch_from": "robot.robot_name",
+            "fieldname": "robot_name",
+            "fieldtype": "Data",
+            "in_filter": 1,
+            "in_list_view": 1,
+            "in_preview": 1,
+            "in_standard_filter": 1,
+            "label": "Robot Name",
+            "read_only": 1,
+            "hidden": 0
+        },
+        {
+            "fieldname": "robot",
+            "fieldtype": "Link",
+            "in_filter": 1,
+            "in_list_view": 1,
+            "in_preview": 1,
+            "in_standard_filter": 1,
+            "label": "Robot",
+            "options": "Robot"
+        },
+        {
+            "default": "Pending",
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "in_filter": 1,
+            "in_global_search": 1,
+            "in_list_view": 1,
+            "in_preview": 1,
+            "in_standard_filter": 1,
+            "label": "Status",
+            "options": "\nPending\nRunning\nCompleted"
+        },
+        {
+            "fieldname": "schedule_start",
+            "fieldtype": "Datetime",
+            "in_filter": 1,
+            "in_list_view": 1,
+            "in_preview": 1,
+            "in_standard_filter": 1,
+            "label": "Schedule Start Time"
+        },
+        {
+            "fieldname": "progress",
+            "fieldtype": "Percent",
+            "label": "Progress",
+            "in_list_view": 1,
+            "read_only": 1,
+            "depends_on": "eval:doc.status == 'Running'"
+        },
+        {
+            "fieldname": "naming_series",
+            "fieldtype": "Select",
+            "hidden": 1,
+            "label": "Naming Series",
+            "options": "SCH-.#####"
+        },
+        {
+            "fieldname": "section_break_gdki",
+            "fieldtype": "Section Break"
+        },
+        {
+            "fieldname": "repeat",
+            "fieldtype": "Data",
+            "label": "Repeat"
+        }
+    ],
+    "hide_toolbar": 1,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-01-27 13:42:59.111107",
+    "modified_by": "Administrator",
+    "module": "Mywhy Robot Pilot",
+    "name": "Schedule",
+    "naming_rule": "By \"Naming Series\" field",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}
