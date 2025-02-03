@@ -1,6 +1,6 @@
 import "./SideMenu.css"
 
-import Icon from "./Icon.jsx"
+import Icon from "../Icon.jsx"
 import { useState } from "react"
 import SideMenuItem from "./SideMenuItem.jsx"
 

@@ -1,6 +1,6 @@
 import "./SideMenuItem.css"
 
-import Icon from "./Icon.jsx"
+import Icon from "../Icon.jsx"
 
 export default function SideMenuItem({ text, icon, menuState }) {
     var additionalStyling = {}

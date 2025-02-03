@@ -1,5 +1,3 @@
-@import "../assets/css/animations.css";
-
 .sideMenu {
     height: calc(100vh - 10px);
     /* display: flex; */
